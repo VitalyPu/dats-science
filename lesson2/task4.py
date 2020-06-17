@@ -6,7 +6,7 @@
 Если в слово длинное, выводить только первые 10 букв в слове.
 """
 
-my_string = input("Введите строку :", )
+my_string = input("Введите строку: ", )
 my_string_spaces=my_string.count(' ') + 1
 
 my_word = my_string.split()

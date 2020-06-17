@@ -45,4 +45,4 @@ while True:
                 elif (my_list[el] > rating) and (my_list[el + 1] < rating):
                     my_list.insert(el + 1, rating)
                     break
-        print(f'Получившийся список - {my_list}')
+        print(f'Вывод получившегося списка - {my_list}')

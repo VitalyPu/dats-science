@@ -64,4 +64,4 @@ while True:
         reject = False
     else:
         if (reject == False):
-            print('Вы ввели не команду, повторите')
+            print('Вы ввели не команду, повторите еще раз')

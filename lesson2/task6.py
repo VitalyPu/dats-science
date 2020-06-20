@@ -37,10 +37,10 @@ cur_feature = 0
 choice = 0
 new_products = []
 
-print('Ниже описаны команды:')
+print('Ниже описаны, которые нужно вводить:')
 
 while True:
-    choice = input("Ввода нового товара введите - 'Go', Отчет - 'Anal', Выйти - 'Exit': ").upper()
+    choice = input("'Go' - ввод товара, 'Anal' - отчет, 'Exit': - выйти: ").upper()
     reject = False
 
     if (choice == 'EXIT'): # Выход
